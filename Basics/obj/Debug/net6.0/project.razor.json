@@ -18379,8 +18379,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Basics\\Views\\Employee\\index.cshtml",
-      "TargetPath": "Views\\Employee\\index.cshtml",
+      "FilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Basics\\Views\\Employee\\Index1.cshtml",
+      "TargetPath": "Views\\Employee\\Index1.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18411,6 +18411,16 @@
     {
       "FilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Basics\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Basics\\Views\\Employee\\Index3.cshtml",
+      "TargetPath": "Views\\Employee\\Index3.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Basics\\Views\\Employee\\Index2.cshtml",
+      "TargetPath": "Views\\Employee\\Index2.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,22 +1,33 @@
 using Microsoft.AspNetCore.Mvc;
-
+using Basics.Models;
 namespace Basics.Controllers
 {
     public class EmployeeController : Controller
     {
-        public String Index()   // https://localhost:7090/Employee adresinde "Hello World" döndürür.
+        public IActionResult Index1()   
         {
-            return "Hello World";
+            string message = $"Hello World. {DateTime.Now.ToString()}";
+            return View("Index1", message); // View klasöründen "Index1.cshtml" dosyası alınır, message stringi yazdırılır
         }
 
-        public ViewResult Index2()  // Buradaki action ile (Index2) aynı isimde bir view aranır (Index2)
+        public ViewResult Index2()  
         {
-            return View("Index");  // Eğer farklı isimde bir view göndermek istiyorsak belirtmeliyiz. View("Index") gibi
+            var names = new String[]{
+                "Ahmet",
+                "Mehmet",
+                "Ayşe"
+            };
+            return View(names); 
         }
 
-        public IActionResult Index3()   // "IActionResult" actionları ifade eden daha kapsayıcı bir yapı.
+        public IActionResult Index3()   
         {
-            return Content("Employee"); // Employee içeriğini (content) döndürür.
+            var list = new List<Employee>{
+                new Employee(){Id=1,FirstName="Ahmet",LastName="Can",Age=20},
+                new Employee(){Id=2,FirstName="Buse",LastName="Yıldız",Age=22},
+                new Employee(){Id=3,FirstName="Merve",LastName="Cansu",Age=30}
+            };
+            return View("Index3",list); 
         }
     }
 }
