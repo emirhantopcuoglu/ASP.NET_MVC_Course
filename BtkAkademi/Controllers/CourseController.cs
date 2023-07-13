@@ -17,7 +17,8 @@ namespace BtkAkademi.Controllers
         [ValidateAntiForgeryToken] // Güvenlik amaçlı doğrulama
         public IActionResult Apply([FromForm] Candidate model) 
         { 
-            return View();
+            Repository.Add(model);
+            return View("Feedback",model);
         }
     }
 }
