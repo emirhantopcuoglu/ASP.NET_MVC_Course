@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6II/ymruL8YxjqNVzmWKyiN4NTmfbxa/HnlPHeuJThEFWm586r8TUvyOAHswnkEUCoEVxXo+VKi7qUgQCvU3hw==",
+  "dgSpecHash": "PovdKtUTLjgHcM+7hTtMDwpE9/2XmpPKWsM05wtQAARj7hMO87ubwYQeN91voX5fFgjzl0KzbpblLZbvWOmAZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
+  "projectFilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emirh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\emirh\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0\\microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
