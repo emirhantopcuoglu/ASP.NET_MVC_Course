@@ -18403,6 +18403,11 @@
       "FilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\Views\\Shared\\_Navbar.cshtml",
       "TargetPath": "Views\\Shared\\_Navbar.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\Views\\Product\\_ProductCard.cshtml",
+      "TargetPath": "Views\\Product\\_ProductCard.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.3"
