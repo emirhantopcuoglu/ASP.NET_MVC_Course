@@ -110,3 +110,5 @@ D:\ASPNET_MVC\Store\StoreApp\obj\Debug\net6.0\StoreApp.genruntimeconfig.cache
 D:\ASPNET_MVC\Store\StoreApp\obj\Debug\net6.0\ref\StoreApp.dll
 C:\Users\emirh\ASPNET_MVC\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
 C:\Users\emirh\ASPNET_MVC\Store\StoreApp\bin\Debug\net6.0\libman.json
+C:\Users\emirh\ASPNET_MVC\Store\StoreApp\bin\Debug\net6.0\Entities.dll
+C:\Users\emirh\ASPNET_MVC\Store\StoreApp\bin\Debug\net6.0\Entities.pdb
