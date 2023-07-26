@@ -112,3 +112,5 @@ C:\Users\emirh\ASPNET_MVC\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebasse
 C:\Users\emirh\ASPNET_MVC\Store\StoreApp\bin\Debug\net6.0\libman.json
 C:\Users\emirh\ASPNET_MVC\Store\StoreApp\bin\Debug\net6.0\Entities.dll
 C:\Users\emirh\ASPNET_MVC\Store\StoreApp\bin\Debug\net6.0\Entities.pdb
+C:\Users\emirh\ASPNET_MVC\Store\StoreApp\bin\Debug\net6.0\Repositories.dll
+C:\Users\emirh\ASPNET_MVC\Store\StoreApp\bin\Debug\net6.0\Repositories.pdb
