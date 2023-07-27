@@ -1,33 +1,36 @@
-using Microsoft.AspNetCore.Mvc;
 using Basics.Models;
+using Microsoft.AspNetCore.Mvc;
+
 namespace Basics.Controllers
 {
     public class EmployeeController : Controller
     {
-        public IActionResult Index1()   
+        public IActionResult Index1()
         {
             string message = $"Hello World. {DateTime.Now.ToString()}";
-            return View("Index1", message); // View klasöründen "Index1.cshtml" dosyası alınır, message stringi yazdırılır
+            return View("Index1",message);
         }
 
-        public ViewResult Index2()  
+        public ViewResult Index2()
         {
-            var names = new String[]{
+            var names = new String[]
+            {
                 "Ahmet",
                 "Mehmet",
-                "Ayşe"
+                "Can"
             };
-            return View(names); 
+            return View(names);
         }
 
-        public IActionResult Index3()   
+        public IActionResult Index3()
         {
-            var list = new List<Employee>{
-                new Employee(){Id=1,FirstName="Ahmet",LastName="Can",Age=20},
-                new Employee(){Id=2,FirstName="Buse",LastName="Yıldız",Age=22},
-                new Employee(){Id=3,FirstName="Merve",LastName="Cansu",Age=30}
+            var list = new List<Employee>()
+            {
+                new Employee(){Id=1, FirstName="Ahmet", LastName="Can", Age = 20},
+                new Employee(){Id=2, FirstName="Can", LastName="Dağ", Age = 25},
+                new Employee(){Id=3, FirstName="Demir", LastName="Güneş", Age = 37}
             };
-            return View("Index3",list); 
+            return View("Index3",list);
         }
     }
 }

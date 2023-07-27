@@ -16,7 +16,7 @@ namespace StoreApp.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.0");
 
-            modelBuilder.Entity("Entities.Product", b =>
+            modelBuilder.Entity("Entities.Models.Product", b =>
                 {
                     b.Property<int>("ProductId")
                         .ValueGeneratedOnAdd()
@@ -61,7 +61,7 @@ namespace StoreApp.Migrations
                         {
                             ProductId = 5,
                             Price = 1500m,
-                            ProductName = "Desk"
+                            ProductName = "Deck"
                         });
                 });
 #pragma warning restore 612, 618

@@ -1,27 +1,29 @@
 @model Candidate
+
 <div class="display-6">
     Apply
 </div>
 
 <form method="post" asp-action="Apply">
     <div class="text-danger" asp-validation-summary="All"></div>
+    
     <div class="form-group my-2">
-        <label asp-for="Email">E-mail</label>
+        <label asp-for="Email"></label>
         <input asp-for="Email" class="form-control" />
     </div>
 
     <div class="form-group my-2">
-        <label asp-for="FirstName">Firstname</label>
+        <label asp-for="FirstName"></label>
         <input asp-for="FirstName" class="form-control" />
     </div>
 
     <div class="form-group my-2">
-        <label asp-for="LastName">Lastname</label>
+        <label asp-for="LastName"></label>
         <input asp-for="LastName" class="form-control" />
     </div>
 
     <div class="form-group my-2">
-        <label asp-for="Age">Age</label>
+        <label asp-for="Age"></label>
         <select asp-for="Age" class="form-control">
             <option value="18">18</option>
             <option value="19">19</option>
@@ -33,17 +35,17 @@
     </div>
 
     <fieldset>
-        <legend>Select one course</legend>
+        <legend>Select One Course</legend>
         <p>
-            <input id="mvc" type="radio" asp-for="SelectedCourse" value="ASP.NET MVC" checked>
-            <label>ASP.NET CORE MVC</label>
+            <input id="mvc" type="radio" asp-for="SelectedCourse" value="ASP.NET Core MVC" checked />
+            <label>ASP.NET Core MVC</label>
         </p>
         <p>
-            <input id="api" type="radio" asp-for="SelectedCourse" value="ASP.NET API">
-            <label>ASP.NET CORE API</label>
+            <input id="api" type="radio" asp-for="SelectedCourse" value="ASP.NET Core API" />
+            <label>ASP.NET Core API</label>
         </p>
         <p>
-            <input id="mvc" type="radio" asp-for="SelectedCourse" value="Blazor">
+            <input id="api" type="radio" asp-for="SelectedCourse" value="Blazor" />
             <label>Blazor</label>
         </p>
     </fieldset>
@@ -52,5 +54,4 @@
         <button class="btn btn-primary" type="submit">Apply</button>
         <a class="btn btn-warning" asp-controller="Home" asp-action="Index">Home</a>
     </div>
-
 </form>

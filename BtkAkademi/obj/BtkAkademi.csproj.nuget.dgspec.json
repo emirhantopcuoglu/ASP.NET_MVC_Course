@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emirh\\ASPNET_MVC\\BtkAkademi\\BtkAkademi.csproj": {}
+    "E:\\MVC\\BtkAkademi\\BtkAkademi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emirh\\ASPNET_MVC\\BtkAkademi\\BtkAkademi.csproj": {
+    "E:\\MVC\\BtkAkademi\\BtkAkademi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emirh\\ASPNET_MVC\\BtkAkademi\\BtkAkademi.csproj",
+        "projectUniqueName": "E:\\MVC\\BtkAkademi\\BtkAkademi.csproj",
         "projectName": "BtkAkademi",
-        "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\BtkAkademi\\BtkAkademi.csproj",
-        "packagesPath": "C:\\Users\\emirh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emirh\\ASPNET_MVC\\BtkAkademi\\obj\\",
+        "projectPath": "E:\\MVC\\BtkAkademi\\BtkAkademi.csproj",
+        "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
+        "outputPath": "E:\\MVC\\BtkAkademi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\emirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
