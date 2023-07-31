@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\zafer\\.nuget\\packages\\": {}
+    "C:\\Users\\emirh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MVC\\Basics\\Basics.csproj",
+      "projectUniqueName": "C:\\Users\\emirh\\ASPNET_MVC\\Basics\\Basics.csproj",
       "projectName": "Basics",
-      "projectPath": "E:\\MVC\\Basics\\Basics.csproj",
-      "packagesPath": "C:\\Users\\zafer\\.nuget\\packages\\",
-      "outputPath": "E:\\MVC\\Basics\\obj\\",
+      "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Basics\\Basics.csproj",
+      "packagesPath": "C:\\Users\\emirh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\emirh\\ASPNET_MVC\\Basics\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\zafer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
