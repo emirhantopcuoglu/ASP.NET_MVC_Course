@@ -1,3 +1,7 @@
+using Entities.Models;
+using Repositories.Contracts;
+using Services.Contracts;
+
 namespace Services
 {
     public class CategoryManager : ICategoryService

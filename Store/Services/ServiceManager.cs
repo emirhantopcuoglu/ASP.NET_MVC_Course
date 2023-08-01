@@ -1,3 +1,5 @@
+using Services.Contracts;
+
 namespace Services
 {
     public class ServiceManager : IServiceManager
@@ -5,13 +7,15 @@ namespace Services
         private readonly IProductService _productService;
         private readonly ICategoryService _categoryService;
 
-        public ServiceManager(IProductService productService, ICategoryService categoryService)
+        public ServiceManager(IProductService productService, 
+        ICategoryService categoryService)
         {
             _productService = productService;
             _categoryService = categoryService;
         }
 
-        IProductService ProductService => _productService;
-        ICategoryService CategoryService => _categoryService;
+        public IProductService ProductService => _productService;
+
+        public ICategoryService CategoryService => _categoryService;
     }
 }
