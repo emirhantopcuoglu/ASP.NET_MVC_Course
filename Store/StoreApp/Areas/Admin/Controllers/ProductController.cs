@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
+using Entities.Models;
 
 namespace StoreApp.Areas.Admin.Controllers
 {
@@ -17,6 +18,17 @@ namespace StoreApp.Areas.Admin.Controllers
         {
             var model = _manager.ProductService.GetAllProducts(false);
             return View(model);
+        }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Create([FromForm] Product product)
+        {
+            return View();
         }
     }
 }
