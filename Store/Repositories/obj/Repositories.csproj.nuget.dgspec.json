@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj": {}
+    "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
     "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj": {
+    "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj",
+        "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\emirh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\obj\\",
+        "outputPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
