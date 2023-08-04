@@ -26,10 +26,17 @@ namespace Services
 
         public Product? GetOneProduct(int id, bool trackChanges)
         {
-            var product = _manager.Product.GetOneProduct(id,trackChanges);
-            if(product is null)
+            var product = _manager.Product.GetOneProduct(id, trackChanges);
+            if (product is null)
                 throw new Exception("Product not found!");
             return product;
+        }
+        public void UpdateOneProduct(Product product)
+        {
+            var entity = _manager.Product.GetOneProduct(product.ProductId, true);
+            entity.ProductName = product.ProductName;
+            entity.Price = product.Price;
+            _manager.Save();
         }
     }
 }
