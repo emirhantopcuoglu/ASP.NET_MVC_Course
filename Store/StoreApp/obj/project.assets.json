@@ -1278,11 +1278,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
+      "projectUniqueName": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
       "projectName": "StoreApp",
-      "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
+      "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
       "packagesPath": "C:\\Users\\emirh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\obj\\",
+      "outputPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1299,14 +1299,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
+            "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
+              "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
             },
-            "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj": {
-              "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj"
+            "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj"
             },
-            "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj"
+            "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj": {
+              "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj"
             }
           }
         }

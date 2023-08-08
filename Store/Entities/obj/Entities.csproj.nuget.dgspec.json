@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {}
+    "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
+    "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
+        "projectUniqueName": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
+        "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\emirh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\obj\\",
+        "outputPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emirh\\AppData\\Roaming\\NuGet\\NuGet.Config",

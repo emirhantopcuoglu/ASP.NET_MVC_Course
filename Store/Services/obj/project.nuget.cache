@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RyducncR4zAPr+2N7YoQraCP8gHqSRR5zhYaC2EPsAiW+CDathwigUwJiI1Jmb5AcPgRBjvMFbo+p9YNifEPvw==",
+  "dgSpecHash": "7ulcURm3PPby3M3V7/71a5aMVy3VNMg7v3R3JIyeCeopIk/29r6AzkwIDvu54gdcTZJ6v2xJdLE6ugQTU94ZHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
+  "projectFilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emirh\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0\\microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
     "C:\\Users\\emirh\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",

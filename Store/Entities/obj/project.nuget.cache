@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E9yT/Imo967ZN5M46izrCwwIS9OKJrutP7v0ZwmqbD1WpA8ALgw/4MEEHL+6S3a9GWxEA0bRvyHL016vKNFZ+Q==",
+  "dgSpecHash": "LeSV2haYNGoWNw6TygwW4y1otnY1OiecNsA6g4/PQz1dw5ACht8bChx9+3XcHhV44PQEQB1OCM5aOULTsyMiKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
+  "projectFilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
