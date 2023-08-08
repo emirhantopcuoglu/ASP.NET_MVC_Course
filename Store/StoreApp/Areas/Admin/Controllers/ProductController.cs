@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Services.Contracts;
 using Entities.Models;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Entities.Dtos;
 
 namespace StoreApp.Areas.Admin.Controllers
 {
@@ -32,11 +33,11 @@ namespace StoreApp.Areas.Admin.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Create([FromForm] Product product)
+        public IActionResult Create([FromForm] ProductDtoForInsertion productDto)
         {
             if (ModelState.IsValid)
             {
-                _manager.ProductService.CreateProduct(product);
+                _manager.ProductService.CreateProduct(productDto);
                 return RedirectToAction("Index");
             }
             return View();

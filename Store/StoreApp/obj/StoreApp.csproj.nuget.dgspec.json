@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj": {}
+    "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
+    "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\emirh\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
-                "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
+              "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
               }
             }
           }
@@ -152,8 +152,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
-                "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
+              "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
               },
               "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj": {
                 "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj"
@@ -170,6 +170,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -190,14 +196,14 @@
         }
       }
     },
-    "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj": {
+    "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
+        "projectUniqueName": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
         "projectName": "StoreApp",
-        "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
+        "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
         "packagesPath": "C:\\Users\\emirh\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\obj\\",
+        "outputPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,8 +220,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
-                "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
+              "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
               },
               "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj": {
                 "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj"

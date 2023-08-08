@@ -1195,8 +1195,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
-              "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
+            "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
             }
           }
         }
