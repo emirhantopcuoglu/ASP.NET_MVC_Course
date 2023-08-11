@@ -25,6 +25,9 @@
         <input asp-for="Price" class="form-control">
     </div>
     <div class="form-group my-3">
+        <img class="rounded shadow" width="150" src="@Model?.ImageUrl">
+    </div>
+    <div class="form-group my-3">
         <label asp-for="ImageUrl"></label>
         <input name="file" type="file" class="form-control">
     </div>
