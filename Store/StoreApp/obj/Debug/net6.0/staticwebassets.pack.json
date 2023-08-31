@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\images\\default.jpg"
     },
     {
+      "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\pride-and-prejudice-71.jpg",
+      "PackagePath": "staticwebassets\\images\\pride-and-prejudice-71.jpg"
+    },
+    {
       "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jrcbbJX+rjH+2qdtmNbj3QY3O5ntU5IsZnt2hv8ue1Y=",
+  "Hash": "gfRnmZYcPDk2TXpZpr61BEQ3sPT653GSFD9AtshecGg=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -185,6 +185,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\default.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\pride-and-prejudice-71.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/pride-and-prejudice-71.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pride-and-prejudice-71.jpg"
     },
     {
       "Identity": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
