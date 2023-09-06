@@ -1330,11 +1330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
+      "projectUniqueName": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
+      "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\emirh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\obj\\",
+      "outputPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1354,8 +1354,8 @@
             "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
               "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
             },
-            "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj"
+            "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj": {
+              "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj"
             }
           }
         }
