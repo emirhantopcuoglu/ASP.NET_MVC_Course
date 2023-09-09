@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+EzafS7nl8K3VciFwPM+diGHD/A1IA5o1UT2ajq6HbnTu+Z9T3Jl5LqnQ8YE1Xb0QwzCA61NjnGupmj9xs1hwg==",
+  "dgSpecHash": "E2jjqAscXGLJCL7JOkd3ZOVhR6l6C21MoAkdVF9LO293FoKu9WvdFshZCOn4XmFYZwUmvKnBBsY4eEeE/qDJwg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emirh\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\emirh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
