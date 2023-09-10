@@ -11,7 +11,8 @@ namespace Services
         private readonly IRepositoryManager _manager;
         private readonly IMapper _mapper;
 
-        public ProductManager(IRepositoryManager manager, IMapper mapper)
+        public ProductManager(IRepositoryManager manager,
+        IMapper mapper)
         {
             _manager = manager;
             _mapper = mapper;
@@ -27,7 +28,7 @@ namespace Services
         public void DeleteOneProduct(int id)
         {
             Product product = GetOneProduct(id, false);
-            if (product != null)
+            if (product is not null)
             {
                 _manager.Product.DeleteOneProduct(product);
                 _manager.Save();
@@ -47,9 +48,9 @@ namespace Services
             return product;
         }
 
-        public ProductDtoForUpdate GetOneProductForUpdate(int id, bool trackChanges)
+        public ProductDtoForUpdate GetOneProductForUpdate(int id, bool trakcChanges)
         {
-            var product = GetOneProduct(id, trackChanges);
+            var product = GetOneProduct(id, trakcChanges);
             var productDto = _mapper.Map<ProductDtoForUpdate>(product);
             return productDto;
         }

@@ -9,13 +9,16 @@ namespace StoreApp.Pages
     {
         private readonly IServiceManager _manager;
 
-        public CartModel(IServiceManager manager)
+        public Cart Cart { get; set; } // IoC
+        public string ReturnUrl { get; set; } = "/";
+
+        public CartModel(IServiceManager manager, Cart cart)
         {
             _manager = manager;
+            Cart = cart;
         }
 
-        public Cart Cart { get; set; }
-        public string ReturnUrl { get; set; } = "/";
+
         public void OnGet(string returnUrl)
         {
             ReturnUrl = returnUrl ?? "/";
@@ -23,15 +26,15 @@ namespace StoreApp.Pages
 
         public IActionResult OnPost(int productId, string returnUrl)
         {
-            Product? product = _manager.
-                ProductService.
-                GetOneProduct(productId, false);
+            Product? product = _manager
+                .ProductService
+                .GetOneProduct(productId, false);
 
             if (product is not null)
             {
                 Cart.AddItem(product, 1);
             }
-            return Page();
+            return Page(); // returnUrl
         }
 
         public IActionResult OnPostRemove(int id, string returnUrl)
@@ -39,6 +42,5 @@ namespace StoreApp.Pages
             Cart.RemoveLine(Cart.Lines.First(cl => cl.Product.ProductId.Equals(id)).Product);
             return Page();
         }
-
     }
 }

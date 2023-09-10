@@ -4,14 +4,14 @@
     "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
+    "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\emirh\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emirh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
-                "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
+              "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Entities\\Entities.csproj"
               }
             }
           }
