@@ -10,8 +10,10 @@ namespace Entities.Models
 
         public virtual void AddItem(Product product, int quantity)
         {
-            CartLine? line = Lines.Where(l => l.Product.ProductId.Equals(product.ProductId)).FirstOrDefault();
-            if (line == null)
+            CartLine? line = Lines.Where(l => l.Product.ProductId.Equals(product.ProductId))
+            .FirstOrDefault();
+
+            if (line is null)
             {
                 Lines.Add(new CartLine()
                 {
@@ -23,14 +25,15 @@ namespace Entities.Models
             {
                 line.Quantity += quantity;
             }
+
         }
 
         public virtual void RemoveLine(Product product) =>
             Lines.RemoveAll(l => l.Product.ProductId.Equals(product.ProductId));
-
-        public decimal ComputeTotalValue() =>
+        
+        public decimal ComputeTotalValue() => 
             Lines.Sum(e => e.Product.Price * e.Quantity);
-
+        
         public virtual void Clear() => Lines.Clear();
     }
 }

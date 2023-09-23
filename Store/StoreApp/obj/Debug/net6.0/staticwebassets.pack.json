@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\images\\1.jpg"
     },
     {
+      "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\11.jpg",
+      "PackagePath": "staticwebassets\\images\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\12.jpg",
+      "PackagePath": "staticwebassets\\images\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\13.jpg",
+      "PackagePath": "staticwebassets\\images\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\14.jpg",
+      "PackagePath": "staticwebassets\\images\\14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\15.jpg",
+      "PackagePath": "staticwebassets\\images\\15.jpg"
+    },
+    {
       "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\2.jpg",
       "PackagePath": "staticwebassets\\images\\2.jpg"
     },
@@ -37,12 +57,24 @@
       "PackagePath": "staticwebassets\\images\\7.jpg"
     },
     {
+      "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\9.jpg",
+      "PackagePath": "staticwebassets\\images\\9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\beloved.jpg",
+      "PackagePath": "staticwebassets\\images\\beloved.jpg"
+    },
+    {
       "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\default.jpg",
       "PackagePath": "staticwebassets\\images\\default.jpg"
     },
     {
-      "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\pride-and-prejudice-71.jpg",
-      "PackagePath": "staticwebassets\\images\\pride-and-prejudice-71.jpg"
+      "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\images\\laptop-lenovo.jpg",
+      "PackagePath": "staticwebassets\\images\\laptop-lenovo.jpg"
     },
     {
       "Id": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\wwwroot\\js\\site.js",
