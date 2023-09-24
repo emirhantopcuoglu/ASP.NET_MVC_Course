@@ -1330,11 +1330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
+      "projectPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\emirh\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\obj\\",
+      "outputPath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emirh\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qg/abcNcGxf6VIPMklU1OJ8r5RBNE4QEAT8AsXdvkbTrfISahYuilQuwVcVz5b6mZ3a9K6f7/sGxXIp/4gXjMw==",
+  "dgSpecHash": "dgYZ6Om+K0SxQVMCagEj7sZn0xf52Ax4214I5VStAs3qWVdB+TMTXy3Y23cRqES+2j035GG/HGMO88Waw+EXZg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
+  "projectFilePath": "C:\\Users\\emirh\\ASPNET_MVC\\Store\\StoreApp\\StoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emirh\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\emirh\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
