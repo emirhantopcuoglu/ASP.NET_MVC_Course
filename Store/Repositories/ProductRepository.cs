@@ -19,10 +19,16 @@ namespace Repositories
         // Interface
         public Product? GetOneProduct(int id, bool trackChanges)
         {
-              return FindByCondition(p => p.ProductId.Equals(id),trackChanges);  
+            return FindByCondition(p => p.ProductId.Equals(id), trackChanges);
+        }
+
+        public IQueryable<Product> GetShowCaseProducts(bool trackChanges)
+        {
+            return FindAll(trackChanges)
+                .Where(p => p.ShowCase.Equals(true));
         }
 
         public void UpdateOneProduct(Product entity) => Update(entity);
-       
+
     }
 }
