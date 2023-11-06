@@ -23,11 +23,17 @@ namespace Repositories.Extensions
         }
         public static IQueryable<Product> FilteredByPrice(this IQueryable<Product> products,
             int minPrice, int maxPrice, bool isValidPrice)
-            {
-                if(isValidPrice)
-                    return products.Where(prd => prd.Price >= minPrice && prd.Price <= maxPrice);
-                else
-                    return products;
-            }
+        {
+            if (isValidPrice)
+                return products.Where(prd => prd.Price >= minPrice && prd.Price <= maxPrice);
+            else
+                return products;
+        }
+        public static IQueryable<Product> ToPaginate(this IQueryable<Product> products, int pageNumber, int pageSize)
+        {
+            return products
+            .Skip(((pageNumber - 1) * pageSize))
+            .Take(pageSize);
+        }
     }
 }
