@@ -1,0 +1,60 @@
+# Build Folders (ignore bin and obj)
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folders for IDE or build system configurations
+.vs/
+.idea/
+.DS_Store
+
+# Rider projects
+.idea/
+
+# Visual Studio Code files
+.vscode/
+
+# Log files
+*.log
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# NPM Packages
+node_modules/
+dist/
+
+# Windows specific files
+*.db
+*.log
+*.out
+*.log
+*.zip
+*.pdb
+*.cache
+*.tmp
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Local history for IDEs
+.localhistory/
+
+# Publish output
+.publish/
