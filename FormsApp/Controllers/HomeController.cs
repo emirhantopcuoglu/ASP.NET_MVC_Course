@@ -34,8 +34,15 @@ public class HomeController : Controller
         };
         return View(model);
     }
+    [HttpGet]
+    public IActionResult Create()
+    {
+        ViewBag.Categories = Repository.Categories;
+        return View();
+    }
 
-    public IActionResult Privacy()
+    [HttpPost]
+    public IActionResult Create(Product model)
     {
         return View();
     }
