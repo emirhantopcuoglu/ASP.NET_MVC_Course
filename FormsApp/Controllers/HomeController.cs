@@ -14,20 +14,21 @@ public class HomeController : Controller
     public IActionResult Index(string searchString, string category)
     {
         var products = Repository.Products;
-        if(!String.IsNullOrEmpty(searchString))
+        if (!String.IsNullOrEmpty(searchString))
         {
             ViewBag.SearchString = searchString;
             products = products.Where(x => x.Name.ToLower().Contains(searchString)).ToList();
         }
 
-        if(!String.IsNullOrEmpty(category) && category != "0")
+        if (!String.IsNullOrEmpty(category) && category != "0")
         {
             products = products.Where(x => x.CategoryId == int.Parse(category)).ToList();
-        }        
+        }
 
         // ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name", category);
 
-        var model = new ProductViewModel{
+        var model = new ProductViewModel
+        {
             Products = products,
             Categories = Repository.Categories,
             SelectedCategory = category
@@ -44,9 +45,15 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult Create(Product model)
     {
-        Repository.CreateProduct(model);
-        return RedirectToAction("Index");
+        if (ModelState.IsValid)
+        {
+            model.ProductId = Repository.Products.Count + 1;
+            Repository.CreateProduct(model);
+            return RedirectToAction("Index");
+        }
+        ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name");
+        return View(model);
     }
 
-    
+
 }
