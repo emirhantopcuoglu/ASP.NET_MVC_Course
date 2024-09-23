@@ -50,18 +50,21 @@ public class HomeController : Controller
         var randomFileName = string.Format($"{Guid.NewGuid().ToString()}{extension}");
         var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", randomFileName);
 
-        if(imageFile != null)
+        if (imageFile != null)
         {
-            if(!allowedExtensions.Contains(extension))
+            if (!allowedExtensions.Contains(extension))
             {
                 ModelState.AddModelError("", "Geçerli bir resim seçiniz.");
-            }   
+            }
         }
         if (ModelState.IsValid)
         {
-            using (var stream = new FileStream(path, FileMode.Create))
+            if (imageFile != null)
             {
-                await imageFile.CopyToAsync(stream);
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    await imageFile.CopyToAsync(stream);
+                }
             }
             model.Image = randomFileName;
             model.ProductId = Repository.Products.Count + 1;
@@ -70,6 +73,22 @@ public class HomeController : Controller
         }
         ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name");
         return View(model);
+    }
+
+    public IActionResult Edit(int? id)
+    {
+        if (id == null)
+        {
+            return NotFound();
+        }
+
+        var entity = Repository.Products.FirstOrDefault(x => x.ProductId == id);
+        if (entity == null)
+        {
+            return NotFound();
+        }
+        ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name");
+        return View(entity);
     }
 
 
