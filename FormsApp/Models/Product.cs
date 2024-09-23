@@ -12,7 +12,7 @@ namespace FormsApp.Models
         public string Name { get; set; } = null!;
 
         [Required]
-        [Range(0,1000000)]
+        [Range(0, 1000000)]
         [Display(Name = "Fiyat")]
         public decimal? Price { get; set; }
 
@@ -23,6 +23,6 @@ namespace FormsApp.Models
 
         [Display(Name = "Category")]
         [Required]
-        public int? CategoryId { get; set; } 
+        public int? CategoryId { get; set; }
     }
 }
