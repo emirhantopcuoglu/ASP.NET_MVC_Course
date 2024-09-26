@@ -41,7 +41,7 @@ namespace FormsApp.Models
                 ProductId = 4,
                 Name = "Samsung S24",
                 Price = 490000,
-                IsActive = true,
+                IsActive = false,
                 Image = "4.jpg",
                 CategoryId = 1
             });
@@ -60,7 +60,7 @@ namespace FormsApp.Models
                 ProductId = 6,
                 Name = "Macbook Pro",
                 Price = 950000,
-                IsActive = true,
+                IsActive = false,
                 Image = "6.jpg",
                 CategoryId = 2
             });
@@ -84,10 +84,22 @@ namespace FormsApp.Models
             var entity = _products.FirstOrDefault(p => p.ProductId == updatedProduct.ProductId);
             if (entity != null)
             {
-                entity.Name = updatedProduct.Name;
+                if (!string.IsNullOrEmpty(updatedProduct.Name))
+                {
+                    entity.Name = updatedProduct.Name;
+                }
                 entity.Price = updatedProduct.Price;
                 entity.Image = updatedProduct.Image;
                 entity.CategoryId = updatedProduct.CategoryId;
+                entity.IsActive = updatedProduct.IsActive;
+            }
+        }
+
+        public static void EditIsActive(Product updatedProduct)
+        {
+            var entity = _products.FirstOrDefault(p => p.ProductId == updatedProduct.ProductId);
+            if (entity != null)
+            {
                 entity.IsActive = updatedProduct.IsActive;
             }
         }
