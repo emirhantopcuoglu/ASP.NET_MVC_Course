@@ -48,7 +48,7 @@ namespace FormsApp.Models
 
             _products.Add(new Product
             {
-                ProductId = 2,
+                ProductId = 5,
                 Name = "Macbook Air",
                 Price = 850000,
                 IsActive = true,
@@ -57,7 +57,7 @@ namespace FormsApp.Models
             });
             _products.Add(new Product
             {
-                ProductId = 2,
+                ProductId = 6,
                 Name = "Macbook Pro",
                 Price = 950000,
                 IsActive = true,
