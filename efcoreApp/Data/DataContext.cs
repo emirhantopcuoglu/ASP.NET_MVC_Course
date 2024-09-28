@@ -1,0 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+
+namespace efcoreApp.Data
+{
+    public class DataContext : DbContext
+    {
+        public DbSet<Kurs> Kurslar => Set<Kurs>(); // Kurs adında bir entity'yi (veritabanı tablosunu) temsil eden bir DbSet oluşturur.
+        public DbSet<Ogrenci> Ogrenciler => Set<Ogrenci>();
+        public DbSet<KursKayit> KursKayitlari => Set<KursKayit>();
+    }
+}
