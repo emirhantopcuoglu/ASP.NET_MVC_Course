@@ -8,7 +8,7 @@ namespace efcoreApp.Data
         [Key]
         public int OgrenciId { get; set; }
         public string? OgrenciAd { get; set; }
-        public string? OgrenciSoyd { get; set; }
+        public string? OgrenciSoyad { get; set; }
         public string? Eposta { get; set; }
         public string? Telefon { get; set; }
 

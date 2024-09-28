@@ -63,7 +63,7 @@ namespace efcoreApp.Migrations
                     b.Property<string>("OgrenciAd")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("OgrenciSoyd")
+                    b.Property<string>("OgrenciSoyad")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Telefon")

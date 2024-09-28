@@ -46,7 +46,7 @@ namespace efcoreApp.Migrations
                     OgrenciId = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     OgrenciAd = table.Column<string>(type: "TEXT", nullable: true),
-                    OgrenciSoyd = table.Column<string>(type: "TEXT", nullable: true),
+                    OgrenciSoyad = table.Column<string>(type: "TEXT", nullable: true),
                     Eposta = table.Column<string>(type: "TEXT", nullable: true),
                     Telefon = table.Column<string>(type: "TEXT", nullable: true)
                 },

@@ -11,7 +11,7 @@ using efcoreApp.Data;
 namespace efcoreApp.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240928092625_InitialCreate")]
+    [Migration("20240928100933_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -66,7 +66,7 @@ namespace efcoreApp.Migrations
                     b.Property<string>("OgrenciAd")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("OgrenciSoyd")
+                    b.Property<string>("OgrenciSoyad")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Telefon")
