@@ -13,9 +13,10 @@ namespace efcoreApp.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var kursKayitlari = await _context.KursKayitlari.Include(x => x.Ogrenci).Include(x => x.Kurs).ToListAsync();
+            return View(kursKayitlari);
         }
 
         public async Task<IActionResult> Create()
@@ -30,9 +31,9 @@ namespace efcoreApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(KursKayit model)
         {
-            model.KayitTarihi = DateTime.Now; 
+            model.KayitTarihi = DateTime.Now;
             _context.KursKayitlari.Add(model);
-            await _context.SaveChangesAsync();  
+            await _context.SaveChangesAsync();
             return RedirectToAction("Index");
         }
     }
