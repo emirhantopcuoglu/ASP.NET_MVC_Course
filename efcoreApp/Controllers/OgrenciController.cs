@@ -35,7 +35,7 @@ namespace efcoreApp.Controllers
             {
                 return NotFound();
             }
-            var ogr = await _context.Ogrenciler.FindAsync(id); // Sadece id ile arama yapılabilir
+            var ogr = await _context.Ogrenciler.Include(o => o.KursKayitlari).ThenInclude(o => o.Kurs).FirstOrDefaultAsync(o => o.OgrenciId == id); // Sadece id ile arama yapılabilir
             // ALTERNATİF : var ogr = await _context.Ogrenciler.FirstOrDefaultAsync(o => o.OgrenciId == id); // Herhangi bir kritere göre arama yapılabilir
             if (ogr == null)
             {
