@@ -62,3 +62,5 @@ C:\Users\emirh\OneDrive\Masaüstü\ASP.NET_MVC_Course\BlogApp\BlogApp\bin\Debug\
 C:\Users\emirh\OneDrive\Masaüstü\ASP.NET_MVC_Course\BlogApp\BlogApp\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\emirh\OneDrive\Masaüstü\ASP.NET_MVC_Course\BlogApp\BlogApp\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\emirh\OneDrive\Masaüstü\ASP.NET_MVC_Course\BlogApp\BlogApp\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\emirh\OneDrive\Masaüstü\ASP.NET_MVC_Course\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.RazorAssemblyInfo.cache
+C:\Users\emirh\OneDrive\Masaüstü\ASP.NET_MVC_Course\BlogApp\BlogApp\obj\Debug\net8.0\BlogApp.RazorAssemblyInfo.cs
