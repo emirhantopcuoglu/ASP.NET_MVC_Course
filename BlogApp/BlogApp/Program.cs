@@ -14,6 +14,7 @@ builder.Services.AddDbContext<BlogContext>(options => {
 });
 
 builder.Services.AddScoped<IPostRepository, EfPostRepository>(); // AddScoped --> Her HTTP requesti için bir tek nesne yollar.
+builder.Services.AddScoped<ITagRepository, EfTagRepository>();
 
 var app = builder.Build();
 
