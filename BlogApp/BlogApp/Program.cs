@@ -20,6 +20,15 @@ var app = builder.Build();
 
 SeedData.TestVerileriniDoldur(app);
 
-app.MapDefaultControllerRoute();
+app.MapControllerRoute(
+    name: "post_details",
+    pattern: "posts/{url}",
+    defaults: new { controller = "Posts", action = "Details"}
+);
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}"
+);
 
 app.Run();
