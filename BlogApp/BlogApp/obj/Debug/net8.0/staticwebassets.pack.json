@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\img\\img3.jpg"
     },
     {
+      "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\p1.jpg",
+      "PackagePath": "staticwebassets\\img\\p1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\p2.jpg",
+      "PackagePath": "staticwebassets\\img\\p2.jpg"
+    },
+    {
       "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.svg",
       "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\bootstrap-icons.svg"
     },
