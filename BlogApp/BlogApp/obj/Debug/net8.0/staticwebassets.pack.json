@@ -5,16 +5,28 @@
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\img1.jpg",
-      "PackagePath": "staticwebassets\\img\\img1.jpg"
+      "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
     },
     {
-      "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\img2.jpg",
-      "PackagePath": "staticwebassets\\img\\img2.jpg"
+      "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
     },
     {
-      "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\img3.jpg",
-      "PackagePath": "staticwebassets\\img\\img3.jpg"
+      "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\4.jpg",
+      "PackagePath": "staticwebassets\\img\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\6.jpg"
     },
     {
       "Id": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\p1.jpg",

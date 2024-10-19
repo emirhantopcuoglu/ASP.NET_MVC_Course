@@ -47,7 +47,7 @@ namespace BlogApp.Data.Concrete.EfCore
                             IsActive = true,
                             PublishedOn = DateTime.Now.AddDays(-10),
                             Tags = context.Tags.Take(3).ToList(),
-                            Image = "img1.jpg",
+                            Image = "1.jpg",
                             UserId = 1,
                             Comments = new List<Comment> { 
                                 new Comment { Text = "iyi bir kurs", PublishedOn = new DateTime(), UserId = 1},
@@ -56,10 +56,10 @@ namespace BlogApp.Data.Concrete.EfCore
                         },
                         new Post {
                             Title = "Php",
-                            Content = "Php core dersleri",
+                            Content = "Php dersleri",
                             Url = "php",
                             IsActive = true,
-                            Image = "img2.jpg",
+                            Image = "2.jpg",
                             PublishedOn = DateTime.Now.AddDays(-20),
                             Tags = context.Tags.Take(2).ToList(),
                             UserId = 1
@@ -69,18 +69,18 @@ namespace BlogApp.Data.Concrete.EfCore
                             Content = "Django dersleri",
                             Url = "django",
                             IsActive = true,
-                            Image = "img3.jpg",
+                            Image = "3.jpg",
                             PublishedOn = DateTime.Now.AddDays(-30),
                             Tags = context.Tags.Take(4).ToList(),
                             UserId = 2
                         }
                         ,
                         new Post {
-                            Title = "React Dersleri",
+                            Title = "React",
                             Content = "React dersleri",
                             Url = "react-dersleri",
                             IsActive = true,
-                            Image = "img3.jpg",
+                            Image = "4.jpg",
                             PublishedOn = DateTime.Now.AddDays(-40),
                             Tags = context.Tags.Take(4).ToList(),
                             UserId = 2
@@ -91,7 +91,7 @@ namespace BlogApp.Data.Concrete.EfCore
                             Content = "Angular dersleri",
                             Url = "angular",
                             IsActive = true,
-                            Image = "img3.jpg",
+                            Image = "5.jpg",
                             PublishedOn = DateTime.Now.AddDays(-50),
                             Tags = context.Tags.Take(4).ToList(),
                             UserId = 2
@@ -102,7 +102,7 @@ namespace BlogApp.Data.Concrete.EfCore
                             Content = "Web tasarım dersleri",
                             Url = "web-tasarim",
                             IsActive = true,
-                            Image = "img3.jpg",
+                            Image = "6.jpg",
                             PublishedOn = DateTime.Now.AddDays(-60),
                             Tags = context.Tags.Take(4).ToList(),
                             UserId = 2
