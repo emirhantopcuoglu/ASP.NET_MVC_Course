@@ -7,20 +7,24 @@
             <div class="tags">
                 @foreach(var tag in Model.Tags)
                 {
-                    <a href="/posts/tag/@tag.Url" class="badge bg-@tag.Color bg-opacity-10 text-@tag.Color mb-2 fw-bold">@tag.Text</a>
-                } 
+                <a href="/posts/tag/@tag.Url"
+                    class="badge bg-@tag.Color bg-opacity-10 text-@tag.Color mb-2 fw-bold">@tag.Text</a>
+                }
             </div>
             <img src="~/img/@Model.Image" class="img-fluid rounded" alt="">
-            <div>@Model.Content</div>            
+            <div>@Model.Content</div>
         </div>
         <div class="bg-white mt-3">
             <div class="card border-0">
                 <div class="card-header pb-0">
-                    <h4>@Model.Comments.Count() adet yorum</h4>
+                    <h4><span id="commentCount"> @Model.Comments.Count()</span> adet yorum</h4>
                 </div>
                 <div class="card-body">
-                    @foreach(var comment in Model.Comments)
-                    {
+                    <div id="comments">
+
+
+                        @foreach(var comment in Model.Comments)
+                        {
                         <div class="my-4 d-flex">
                             <img src="/img/@comment.User.Image" alt="" class="avatar rounded-circle float-start me-3">
                             <div>
@@ -31,7 +35,9 @@
                                 <p>@comment.Text</p>
                             </div>
                         </div>
-                    }
+                        }
+
+                    </div>
                     <hr class="my-4">
                     <div>
                         <h4 class="mb-3">Yorum ekle</h4>
@@ -58,28 +64,47 @@
         <vc:tags-menu></vc:tags-menu>
         <vc:new-posts></vc:new-posts>
     </div>
-       
+
 </div>
 @section Scripts {
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#btnYorumKayit").click(function(){
-                $.ajax({
-                    type: 'POST',
-                    url: '@Url.Action("AddComment")',
-                    dataType: 'json',
-                    data: {
-                        PostId: $('#PostId').val(),
-                        UserName: $('#UserName').val(),
-                        Text: $('#Text').val(),
-                    },
-                    success: function(yorum){
-                        console.log(yorum);
-                    }
-                });
-                return false;
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#btnYorumKayit").click(function () {
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("AddComment")',
+                dataType: 'json',
+                data: {
+                    PostId: $('#PostId').val(),
+                    UserName: $('#UserName').val(),
+                    Text: $('#Text').val(),
+                },
+                success: function (yorum) {
+                    var date = new Date(yorum.publishedOn);
+
+                    $("#comments").append(`
+                        <div class="my-4 d-flex">
+                            <img src="/img/${yorum.image}" alt="" class="avatar rounded-circle float-start me-3">
+                            <div>
+                                <div class="mb-2 d-flex">
+                                    <h6 class="me-2">${yorum.userName}</h6>
+                                    <small>${date.toLocaleDateString()}</small>
+                                </div>
+                                <p>${yorum.text}</p>
+                            </div>
+                        </div>
+                    `);
+                    $("#UserName").val('');
+                    $("#Text").val('');
+
+                    var adet = parseInt($("#commentCount").text());
+                    $("#commentCount").text(adet + 1);
+                }
             });
+            return false;
         });
-    </script>
+    });
+</script>
 }
