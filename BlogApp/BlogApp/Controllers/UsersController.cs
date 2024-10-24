@@ -44,6 +44,7 @@ namespace BlogApp.Controllers
                     userClaims.Add(new Claim(ClaimTypes.NameIdentifier, isUser.UserId.ToString()));// Kullanıcının benzersiz kimlik numarası (UserId) kimlik bilgileri arasına eklenir.
                     userClaims.Add(new Claim(ClaimTypes.Name, isUser.UserName ?? ""));// Kullanıcının kullanıcı adı kimlik bilgileri arasına eklenir (boş olma durumu kontrol edilir).
                     userClaims.Add(new Claim(ClaimTypes.GivenName, isUser.Name ?? ""));// Kullanıcının adı kimlik bilgilerine eklenir (boş olma durumu kontrol edilir).
+                    userClaims.Add(new Claim(ClaimTypes.UserData, isUser.Image ?? ""));
 
                     //Eğer kullanıcının e-posta adresi "info@admin.com" ise, bu kullanıcıya admin yetkisi (rolü) atanır.
                     if (isUser.Email == "info@admin.com")
