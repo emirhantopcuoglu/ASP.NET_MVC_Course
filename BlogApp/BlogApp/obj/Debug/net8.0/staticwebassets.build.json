@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "guUvNb9NXULimCseLLzz3ALHvlvlxNqKDe3pjv7DHWY=",
+  "Hash": "jhGdSh7bYC65vkNaj7lNzoqEY5KaNqY3UdyzqEq3l4g=",
   "Source": "BlogApp",
   "BasePath": "_content/BlogApp",
   "Mode": "Default",
@@ -205,6 +205,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\p2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\img\\p3.jpg",
+      "SourceId": "BlogApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\",
+      "BasePath": "_content/BlogApp",
+      "RelativePath": "img/p3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\p3.jpg"
     },
     {
       "Identity": "C:\\Users\\emirh\\OneDrive\\Masaüstü\\ASP.NET_MVC_Course\\BlogApp\\BlogApp\\wwwroot\\lib\\bootstrap-icons\\bootstrap-icons.svg",
