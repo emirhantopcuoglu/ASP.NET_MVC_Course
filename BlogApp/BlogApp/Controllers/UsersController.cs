@@ -18,7 +18,16 @@ namespace BlogApp.Controllers
 
         public IActionResult Login()
         {
+            if (User.Identity!.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Posts");
+            }
             return View();
+        }
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login");
         }
 
         [HttpPost]
@@ -41,7 +50,7 @@ namespace BlogApp.Controllers
                     {
                         userClaims.Add(new Claim(ClaimTypes.Role, "admin"));
                     }
-                    
+
                     // Kullanıcı kimlik bilgileriyle (claims) yeni bir ClaimsIdentity nesnesi oluşturulur.
                     // Bu kimlik, kullanıcının giriş yaptığına dair bilgileri tutar.
                     var claimsIdentity = new ClaimsIdentity(userClaims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -51,17 +60,17 @@ namespace BlogApp.Controllers
                     {
                         IsPersistent = true // IsPersistent = true demek, oturumun tarayıcı kapansa bile açık kalacağı anlamına gelir (kalıcı oturum).
                     };
-                    
+
                     // Eğer kullanıcı zaten oturum açmışsa önce mevcut oturum kapatılır.
                     await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-                    
+
                     // Kullanıcı oturumu açılır ve oluşturulan kimlik bilgileri (ClaimsIdentity) ve ayarlar (AuthenticationProperties) kullanılarak giriş yapılır.
                     await HttpContext.SignInAsync(
                         CookieAuthenticationDefaults.AuthenticationScheme,  // Kullanılan kimlik doğrulama şeması (Cookie tabanlı)
                         new ClaimsPrincipal(claimsIdentity), // Kullanıcının kimlik bilgileri
                         authProperties); // Oturum ayarları (kalıcılık bilgisi)
-                    
-                    return RedirectToAction("Index","Posts");
+
+                    return RedirectToAction("Index", "Posts");
                 }
                 else
                 {
