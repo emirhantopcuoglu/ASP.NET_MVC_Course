@@ -19,7 +19,5 @@ namespace IdentityApp.ViewModels
         [DataType(DataType.Password)]
         [Compare(nameof(Password), ErrorMessage = "Parola eşleşmiyor.")]
         public string ConfirmPassword { get; set; } = string.Empty;
-
-
     } 
 }
