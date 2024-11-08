@@ -85,7 +85,7 @@ namespace IdentityApp.Controllers
 
                     var result = await _userManager.UpdateAsync(user);
 
-                    if(result.Succeeded && !string.IsNullOrEmpty(model.Password))
+                    if (result.Succeeded && !string.IsNullOrEmpty(model.Password))
                     {
                         await _userManager.RemovePasswordAsync(user);
                         await _userManager.AddPasswordAsync(user, model.Password);
@@ -104,6 +104,17 @@ namespace IdentityApp.Controllers
             }
 
             return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            if (user != null)
+            {
+                await _userManager.DeleteAsync(user);
+            }
+            return RedirectToAction("Index");
         }
     }
 }
