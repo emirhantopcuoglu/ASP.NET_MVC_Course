@@ -178,5 +178,44 @@ namespace IdentityApp.Controllers
 
         }
 
+        public IActionResult ResetPassword(string Id, string token)
+        {
+            if (Id == null || token == null)
+            {
+                return RedirectToAction("Login");
+            }
+
+            var model = new ResetPasswordViewModel { Token = token };
+            return View(model);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> ResetPassword(ResetPasswordViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var user = await _userManager.FindByEmailAsync(model.Email);
+                if (user == null)
+                {
+                    TempData["message"] = "Bu e-posta adresi ile eşleşen kullanıcı bulunamadı.";
+                    return RedirectToAction("Login");
+                }
+
+                var result = await _userManager.ResetPasswordAsync(user, model.Token, model.Password);
+
+                if (result.Succeeded)
+                {
+                    TempData["message"] = "Şifeniz değiştirildi.";
+                    return RedirectToAction("Login");
+                }
+
+                foreach (IdentityError err in result.Errors)
+                {
+                    ModelState.AddModelError("", err.Description);
+                }
+            }
+            return View(model);
+        }
+
     }
 }
