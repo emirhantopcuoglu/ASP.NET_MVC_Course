@@ -53,7 +53,7 @@ namespace ProductsAPI.Controllers
             return CreatedAtAction(nameof(GetProduct), new { id = entity.ProductId }, entity);
         }
 
-        [HttpPut("id")]
+        [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProduct(int id, Product entity)
         {
             if (id != entity.ProductId)
@@ -74,16 +74,46 @@ namespace ProductsAPI.Controllers
 
             try
             {
-                   await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
             }
             catch (Exception e)
+            {
+
+                return NotFound();
+            }
+
+            return NoContent(); // 204
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var product = await _context.Products.FirstOrDefaultAsync(i => i.ProductId == id);
+            
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            _context.Products.Remove(product);
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception)
             {
                 
                 return NotFound();
             }
 
-            return NoContent(); // 204
-            
+            return NoContent();
         }
     }
 }
