@@ -1,10 +1,9 @@
 using StoreApp.Data.Concrete;
 
-namespace StoreApp.Data.Abstract
+namespace StoreApp.Data.Abstract;
+
+public interface IStoreRepository
 {
-    public interface IStoreRepository
-    {
-        IQueryable<Product> Products { get; }
-        void CreateProduct(Product entity);
-    }
+    IQueryable<Product> Products { get; }
+    void CreateProduct(Product entity);
 }
